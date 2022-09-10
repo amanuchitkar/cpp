@@ -10,15 +10,15 @@ int main(){
         {
             if (i==1||i==row)
             {
-                cout<<"*";
+                cout<<" *";
             }
             else if (j==1||j==col)
             {
-                cout<<"*";
+                cout<<" *";
             }
             else
             {
-                cout<<" ";
+                cout<<"  ";
             }
         }
         cout<<endl;
