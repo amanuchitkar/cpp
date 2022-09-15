@@ -2,7 +2,7 @@
 using namespace std;
 void print(int num)
 {
-    cout << num<<" + ";
+    cout << num << " + ";
     return;
 }
 int add(int num1, int num2)
@@ -15,6 +15,6 @@ int add(int num1, int num2)
 int main()
 {
     int a = 3, b = 2;
-    cout <<"= "<< add(a, b)<<endl; 
+    cout << "= " << add(a, b) << endl;
     return 0;
 }

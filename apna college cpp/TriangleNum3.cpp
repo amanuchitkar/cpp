@@ -16,8 +16,8 @@ int main()
         {
             cout << k-- << " ";
         }
-        k=2;
-        for (; j <= n+i-1; j++)
+        k = 2;
+        for (; j <= n + i - 1; j++)
         {
             cout << k++ << " ";
         }

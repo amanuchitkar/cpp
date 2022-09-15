@@ -5,7 +5,7 @@ int HexToDecimal(string n)
     int ans = 0;
     int x = 1;
     int s = n.size();
-    for (int i = s - 1; i >=0; i--)
+    for (int i = s - 1; i >= 0; i--)
     {
         if (n[i] >= '0' && n[i] <= '9')
         {

@@ -6,7 +6,7 @@ int DecimalToBinary(int n)
     int ans = 0;
     while (x <= n)
         x *= 2;
-    
+
     x /= 2;
     while (x > 0)
     {

@@ -1,25 +1,27 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int fact(int n){
-    int factorial=1;
-    for (int i = 2; i <=n; i++)
+int fact(int n)
+{
+    int factorial = 1;
+    for (int i = 2; i <= n; i++)
     {
-        factorial*=i;
+        factorial *= i;
     }
-    
+
     return factorial;
 }
-int main(){
+int main()
+{
     int n;
-    cin>>n;
-    for (int i = 0; i <n; i++)
+    cin >> n;
+    for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j <=i; j++)
+        for (int j = 0; j <= i; j++)
         {
-            cout<<fact(i)/(fact(j)*fact(i-j))<<" ";
+            cout << fact(i) / (fact(j) * fact(i - j)) << " ";
         }
-       cout<<endl;
+        cout << endl;
     }
-    
+
     return 0;
 }

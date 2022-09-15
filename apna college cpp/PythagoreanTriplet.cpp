@@ -19,12 +19,14 @@ bool check(int x, int y, int z)
         b = x;
         c = y;
     }
-    if (a * a == b * b + c * c){
+    if (a * a == b * b + c * c)
+    {
 
         return true;
     }
 
-    else{
+    else
+    {
 
         return false;
     }

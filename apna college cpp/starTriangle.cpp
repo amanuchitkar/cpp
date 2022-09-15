@@ -1,22 +1,23 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
-    int n=6;
+int main()
+{
+    int n = 6;
     // cin>>n;
-    for (int i = 1; i <=n; i++)
+    for (int i = 1; i <= n; i++)
     {
-        for (int j=1; j <=n; j++)
+        for (int j = 1; j <= n; j++)
         {
-            if (j<=n-i)
+            if (j <= n - i)
             {
-                cout<<" ";
+                cout << " ";
             }
             else
             {
-                cout<<"* ";
+                cout << "* ";
             }
         }
-        cout<<endl;
+        cout << endl;
     }
-return 0;
-} 
+    return 0;
+}
