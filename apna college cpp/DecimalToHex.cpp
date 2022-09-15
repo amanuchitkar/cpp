@@ -18,7 +18,7 @@ string DecimalToHex(int n)
         {
             ans = ans + to_string(lastdigit);
         }
-        else
+        else 
         {
             char c = 'A' + lastdigit - 10;
             ans.push_back(c);

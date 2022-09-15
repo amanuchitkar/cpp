@@ -10,7 +10,7 @@ int DecimalToOctal(int n)
         x *= 8;
     }
     x /= 8;
-    while (x > 0)
+    while (x > 0) 
     {
         int lastdigit = n / x;
         n -= lastdigit * x;
